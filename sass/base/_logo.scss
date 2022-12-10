@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+}
+
+.logo-object {
+    width: 160px;
+    height: 60px;
+}
+
+.logo-path {
+    @extend %transition;
+}
+
+.logo-svg {
+    cursor: pointer;
+    &:hover {
+        .logo-path {
+            fill: #000;
+        }
+    }
+}
+
+.svg {
+    width: 100%;
+    height: 100%;
+}

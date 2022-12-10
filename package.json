@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1"
+  },
+  "name": "nn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
