@@ -1,0 +1,176 @@
+.item-title {
+    font-size: 24px;
+    line-height: 1.2em;
+    display: inline-block;
+    padding: 6px 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.sorting {
+	font-size:18px;
+	line-height:1.2em;
+	margin-bottom:8px
+}
+.sorting_item {
+	color:#cad1da;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	padding:10px 0
+}
+.sorting_item > span, .sorting_item ul {
+	display:inline-block;
+	vertical-align:middle
+}
+.sorting_item > span {margin-right:10px}
+.sorting_item ul li {margin-right:6px}
+.sorting_item ul li a {
+	color:#cad1da;
+	text-decoration:none
+}
+.sorting_item ul li.active a {color:#94c3c2}
+.sorting_icon_group {
+	color:#cad1da;
+	padding:10px 0;
+	font-size:16px
+}
+.sorting_icon_group a {
+	color:#cad1da
+}
+.sorting .sorting_icon_group {float:right}
+.sorting-bot .sorting_icon_group {
+	padding:0;
+	display:inline-block;
+	vertical-align:middle
+}
+.sorting_icon_group ul li {
+	cursor:pointer
+}
+.sorting_icon_group ul li.active {cursor:default;color:#96c4c3}
+.sorting-bot {text-align:right;margin-bottom:10px;padding:10px 0}
+
+.h1-count {
+	font-size:24px;
+	line-height:1.2em;
+	display:inline-block;
+	padding:6px 0;
+	margin-bottom:10px;
+	font-weight:400
+}
+
+.sorting .pagination {
+    padding: 2px 0;
+    margin: 0;
+    float: left;
+}
+
+.pagination {
+    border: 0;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.pagination>li {
+    display: inline;
+}
+
+.pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.pagination>.disabled>span {
+    border-color: white;
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+
+    @include font($size: 1.8rem, $height: 2.6rem);
+}
+
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    
+}
+
+li span {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: normal
+}
+
+.pagination>li>a {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.pagination a {
+    border: 0!important;
+    color: #d0d6de!important;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+    
+    @include font($size: 1.8rem, $height: 2.6rem, $weight: 700);
+}
+
+.sorting .sorting_icon_group {
+    float: right;
+}
+
+.sorting_icon_group {
+    color: #cad1da;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.sorting_icon_group ul li.active {
+    cursor: default;
+    color: #96c4c3;
+
+    border-radius: 5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-list:before {
+    content: "\f03a";
+}
+
+.sorting_icon_group ul li {
+    cursor: pointer;
+}
+

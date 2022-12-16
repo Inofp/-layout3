@@ -31,8 +31,8 @@
   position: relative;
   max-width: $slider-width;
 }
-/* Next & previous buttons */
-.prev, .next {
+/* NextOne & PrevOneious buttons */
+.PrevOne, .NextOne {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -45,14 +45,14 @@
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
-.next {
+/* Position the "NextOne button" to the right */
+.NextOne {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.PrevOne:hover, .NextOne:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
