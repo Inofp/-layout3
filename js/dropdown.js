@@ -3,4 +3,5 @@ $(function () {
         $(this).addClass("hide").parent().parent().parent().find("li.hide").removeClass("hide");
         return false;
     });
-  });
+});
+  
