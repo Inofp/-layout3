@@ -47,24 +47,24 @@ function fillTemplate() {
 
   console.log(analogObjects);
   var analogImage = document.getElementsByName('analog-img');
-    for (var i = 0; i < analogImage.length; i++) {
+    for (var i = 0; i < 6; i++) {
       analogImage[i].src = analogObjects[i].img;
         };
   
 
 
   var analogName = document.getElementsByClassName('temp-name');
-    for (var i = 0; i < analogName.length; i++) {
+    for (var i = 0; i < 6; i++) {
       analogName[i].innerHTML = analogObjects[i].name;
         };
 
   var analogMms = document.getElementsByClassName('mms');
-    for (var i = 0; i < analogMms.length; i++) {
+    for (var i = 0; i < 6; i++) {
       analogMms[i].innerHTML = analogObjects[i].count;
         };
 
   var analogMnn = document.getElementsByClassName('info-mnn');
-    for (var i = 0; i < analogMnn.length; i++) {
+    for (var i = 0; i < 6; i++) {
       analogMnn[i].innerHTML = analogObjects[i].mnn;
         };
 

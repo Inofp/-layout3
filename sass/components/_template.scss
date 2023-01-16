@@ -73,7 +73,7 @@
 
 .analog-item-info {
     position: relative;
-
+    max-width: 240px;
     padding-top: 30px;
 }
 .analog-item-info .info-mnn {
@@ -122,3 +122,12 @@
     max-width: 900px;
 }
 
+@media screen and (max-width: 572px) {
+    .layout-3-column {
+        display: block;
+    }
+
+    .pagination {
+        display: block;
+    }
+}

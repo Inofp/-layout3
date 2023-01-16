@@ -2017,6 +2017,7 @@ li span {
 
 .analog-item-info {
   position: relative;
+  max-width: 240px;
   padding-top: 30px;
 }
 
@@ -2060,6 +2061,15 @@ li span {
   line-height: 2.6rem;
   word-wrap: break-word;
   max-width: 900px;
+}
+
+@media screen and (max-width: 572px) {
+  .layout-3-column {
+    display: block;
+  }
+  .pagination {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
